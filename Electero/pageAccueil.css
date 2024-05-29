@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+}
+
+
+#en-tete{
+	height: 82.5px;
+	width: 100%;
+	background-color: #ebebeb;
+
+}
+#en-tete > *{
+	position: absolute;
+}
+
+img{
+margin-top: 5px;
+margin-left: 20px;
+width : 18%;
+float : left;
+}
+
+
+.bouton  > *{
+	position: absolute;
+	height: 45px;
+	width: 150px;
+	background-color: #ff6700;
+	color: #ebebeb;
+	font-size: 1em;
+	font-family:"Gogh";
+	border-radius: 15px 15px;
+	border:  5px double #ebebeb;
+}
+
+@font-face {
+ font-family: "Gogh";
+ src: url("Gogh.otf") ;
+}
+
+.bouton{
+	top: 20px;
+right: 40px;
+width: 320px;
+height: 35px;
+}
+
+button:hover {
+  background-color: #3a6ea5 ;
+}
+
+#btn_gauche{
+	right: 0px;
+}
+
+#btn_droite{
+	left: 0px;
+}
+
+#millieu > *{
+	position: absolute;
+}
+
+
+
+.txt_connexion{
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 15px;
+	font-family:"Gogh";
+
+}
+
+main{
+	position: absolute;
+	font-family:"Gogh";
+	height: 100%;
+	width: 100%;
+	background-color: #004e98;
+}
+
+
+#formeInscription, #formeConnexion, #infos,#formeCreation, #vote{
+	height: 50%;
+	width: 60%;
+	margin-top: 1%;
+	left: 20%;
+	background-color: #ebebeb ;
+}
+
+.option{
+	font-style: italic;
+	color: grey;
+	margin-top: 9.5%;
+	margin-left: 25%;
+
+}
+
+label{
+	position: absolute;
+	margin-top: 11%;
+	left: 20%;
+}
+select,input {
+		position: absolute;
+		margin-top: 10%;
+		border-radius: 7px 7px;
+		padding :7px;
+		width: 25%;
+    display: table-cell;
+		 right:20%;
+}
+
+
+#cnx{
+	font-size: 1em;
+	width: 140px;
+	height: 40px;
+	font-family:"Gogh";
+	color: #004e98;
+	background-color: white;
+}
+
+#cnx:hover {
+  color: #ff6700 ;
+}
+
+.choix{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+	border-radius: 15px 15px;
+	border:  5px solid  #004e98;
+}
+
+#choix2{
+	right: 0px;
+}
+
+#candid{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.choix:hover {
+  border-color: #ff6700 ;
+}
+
+form{
+	position: absolute;
+	width: auto;
+	height: 50%;
+	left: 20%;
+	top: 20%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="pageAccueil.css">
+	<title>inscription</title>
+</head>
+<body>
+	<header>
+		<div id="en-tete">
+			<div  id="logo">
+				<img src="logo.png">
+			</div>
+			<div class="bouton">
+				<button id="btn_droite" onclick="window.location.href = 'pageAccueil.html';">Accueil</button>
+				<button id="btn_gauche" onclick="window.location.href = 'connexion.html';">Se connecter</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div id="millieu">
+				<form  id="formeInscription">
+
+						<label>Nom d'utilisateur :</label>
+						<input type="text" name="username" required>
+						<br></br>
+
+						<label>Adresse eMail :</label>
+						<input type="email" name="eMail" required>
+						<br></br>
+
+						<label>Mot de passe :</label>
+						<input type="password" name="password" minlength="6" required>
+						<br></br>
+
+						<label>Verifier Mot de passe :</label>
+						<input type="password" name="password2" minlength="6" required>
+						<br></br>
+
+						<label class="choixCompteLabel">Type de compte :</label>
+						<br></br>
+						<label class="option">Organisateur</label>
+					 <input class="choixCompte" type="radio" name="choix">
+
+						<br></br>
+						<label class="option">Electeur</label>
+						<input class="choixCompte" type="radio" name="choix" >
+						<br></br>
+
+						<input id="cnx" type="submit" value="S'inscrire">
+
+				</form>
+		</div>
+	</main>
+</body>
+</html>

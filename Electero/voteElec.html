@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="pageAccueil.css">
+	<title>inscription</title>
+</head>
+<body>
+	<header>
+		<div id="en-tete">
+			<div  id="logo">
+				<img src="logo.png">
+			</div>
+			<div class="bouton">
+				<button id="btn_droite" onclick="window.location.href = 'pageAccueil.html';">Accueil</button>
+				<button id="btn_gauche" onclick="window.location.href = 'pageAccueil.html';">Se deconnecter</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div id="millieu">
+
+<form id="vote" method="post">
+<title>Titre de l'éléction</title>
+ <!-- pas complet (ça necessite du php) -->
+			<div class="choix" id="choix1">
+				<img src="choix1.png" id="candid">
+			</div>
+
+			<div class="choix" id="choix2">
+				<img src="choix2.png" id="candid">
+			</div>
+
+						<input id="cnx" type="submit" value="Publier">
+</form>
+		</div>
+	</main>
+</body>
+</html>
